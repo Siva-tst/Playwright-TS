@@ -1,0 +1,18 @@
+{
+  "name": "playwright-ts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "show-report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "typescript": "^5.0.0"
+  }
+}
