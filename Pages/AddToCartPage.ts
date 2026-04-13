@@ -13,7 +13,7 @@ export class AddToCartPage {
     constructor(page: Page) {
         this.page = page;
         this.cartIcon = page.locator("[routerlink*='cart']");
-        this.cartItems = page.locator('div li');
+        this.cartItems = page.locator('div.cartSection h3');
         this.checkoutBtn = page.locator('text=Checkout');
         this.countryInput = page.locator("[placeholder*='Country']");
         this.countryDropdown = page.locator('.ta-results');
